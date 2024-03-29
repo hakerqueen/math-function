@@ -1,0 +1,11 @@
+#w.a.prgrm to print an absolutet value, square,cube values by
+#using import fn of math by defining a fn for cube
+
+import math
+def cube(x):
+        return x**3
+a=-12
+a=abs(a)#it returns an absolute value
+print("absolute value of a is",a)
+print("squareroot value of a is ",math.sqrt(a))
+print("cube value of a is",cube(a))
